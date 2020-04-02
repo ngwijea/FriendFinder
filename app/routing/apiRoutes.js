@@ -28,7 +28,7 @@ for (var i = 0; i < friendFind.length; i++) {
 }
 
 friendFind.push(user);
-res.json(mostCompatible)
+res.json(mostCompatible);
 
 });
 
